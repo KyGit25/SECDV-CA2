@@ -27,7 +27,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Generic Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -35,12 +35,12 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Generic Trust Boundary"
             ],
             "id": "411d47f2-1ac2-42e1-9431-7cb012a90d7d",
             "source": {
-              "x": -6470,
-              "y": 980
+              "x": -6450,
+              "y": 910
             },
             "target": {
               "x": -6420,
@@ -686,8 +686,8 @@
               "y": 1010
             },
             "target": {
-              "x": -6460,
-              "y": 990
+              "x": -6470,
+              "y": 1000
             },
             "vertices": [
               {
