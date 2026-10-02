@@ -754,7 +754,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "User Sends User Credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -768,7 +768,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "User Sends User Credentials"
             ],
             "id": "dc13f295-d1ba-4864-ba05-ac960318971b",
             "source": {
@@ -787,6 +787,62 @@
               {
                 "x": -6710,
                 "y": 1110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 16,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "a185ad9d-fde1-4238-a448-520c470ca0fe",
+            "source": {
+              "x": -6800,
+              "y": 1330
+            },
+            "target": {
+              "x": -6930,
+              "y": 1280
+            },
+            "vertices": [
+              {
+                "x": -6880,
+                "y": 1320
+              },
+              {
+                "x": -6760,
+                "y": 1290
               }
             ]
           }
