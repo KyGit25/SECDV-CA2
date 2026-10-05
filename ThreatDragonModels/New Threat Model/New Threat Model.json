@@ -503,13 +503,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1231,6 +1224,10 @@
               "y": 1180
             },
             "vertices": [
+              {
+                "x": -6870,
+                "y": 1180
+              },
               {
                 "x": -6780,
                 "y": 1170
