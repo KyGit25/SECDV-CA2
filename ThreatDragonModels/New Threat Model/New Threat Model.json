@@ -305,7 +305,7 @@
                   "severity": "TBD",
                   "type": "Tampering",
                   "description": "SQL injection is an attack in which malicious code is inserted into strings that are later passed to an instance of SQL Server for parsing and execution.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 3,
@@ -326,7 +326,7 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
@@ -464,7 +464,7 @@
                   "severity": "TBD",
                   "type": "Tampering",
                   "description": "LDAP injection is possible, as the user authentication is verified using an LDAP query.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 5,
@@ -498,7 +498,7 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 1,
                 "informationDisclosure": 1,
                 "denialOfService": 0
@@ -831,7 +831,7 @@
                   "severity": "TBD",
                   "type": "Spoofing",
                   "description": "The web application may be spoofed by an attacker and this may lead to unauthorized access to the browser client.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 1,
@@ -852,9 +852,9 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
-                "repudiation": 1,
+                "repudiation": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
@@ -1225,7 +1225,7 @@
             },
             "vertices": [
               {
-                "x": -6870,
+                "x": -6800,
                 "y": 1180
               },
               {
